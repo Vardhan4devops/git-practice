@@ -1,0 +1,10 @@
+Centralized vcs vs Distributed vcs:
+
+-> In Centralized vcs, if the code has to shared between Dev1 and Dev2, it has to be stored in Centralized repository. If that repository is crashed, there will be no communication between Dev1 and Dev2. 
+
+-> In Distributed vcs, Dev1 can store code in Distributed repository, from there Dev2 can fetch the code. Or Dev1 and Dev2 can have copies of Distributed vcs locally and can mimic as original vcs. 
+
+Fork =  is an entire copy of original vcs locally. Even if the Original vcs crashes, the team can have data locally.
+
+GIT vs GitHub:  Git is a free, open source version control tool that developers install locally on their personal computers, while GitHub is a pay-for-use cloud-based hosting service that lets you manage Git repositories.
+
