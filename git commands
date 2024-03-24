@@ -1,1 +1,46 @@
 
+Centralized vcs vs Distributed vcs
+
+In Centralized vcs, if the code has to shared between Dev1 and Dev2, it has to be stored in Centralized repository. If that repository is crashed, there will be no communication between Dev1 and Dev2. 
+
+In Distributed vcs, Dev1 can store code in Distributed repository, from there Dev2 can fetch the code. Or Dev1 and Dev2 can have copies of Distributed vcs locally and can mimic as original vcs. 
+
+Fork =  is an entire copy of original vcs locally. Even if the Original vcs crashes, the team can have data locally.
+
+GIT vs GitHub:  Git is a free, open source version control tool that developers install locally on their personal computers, while GitHub is a pay-for-use cloud-based hosting service that lets you manage Git repositories.
+
+GIT commands:
+-------------
+git init = initializes git repository (.git a hidden folder is created and tracks updates/modifications of that folder.)
+
+git clone = git clone https://github.com/Vardhan4devops/git-practice.git
+
+git status = it shows untracked files
+
+git diff = it shows what are the changes done
+
+git add = add the untracked file to local repository.
+
+git commit = commit the changes
+
+git log = it shows number of commits with IDs
+
+git reset --hard <commit ID> = we can make use of desired committed code. (e.g: git reset --hard fd2d2062d8a4d07188043a68a9821e7af78234c7)
+
+git push = push local code to remote repository
+
+
+GIT Branching
+--------------------
+git branch = to see current branch.
+
+git checkout -b <new branch name> = (e.g: git checkout -b my_new_branch)
+
+git checkout <branch_name> = move to desired branch
+
+git cherry-pick <commit-id>= to merge desired committed code to main branch.
+
+git rebase = will get commits linearly. We can see all the commits in order.
+
+git merge = merges commits to main non lineraly.
+
